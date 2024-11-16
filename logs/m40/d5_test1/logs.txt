@@ -1,0 +1,2 @@
+-  Epoch: 1, train/loss: 3.842, train/accu: 0.035, memory: 1.076GB, iter: 0
+-  Epoch: 2, train/loss: 2.295, train/accu: 0.423, memory: 1.090GB, iter: 0

@@ -1,0 +1,78 @@
+SOLVER:
+  gpu: 0,
+  run: train # test / eval
+  type: sgd # adam / adamw (maybe add more)
+  best_val: max:accu
+
+  logdir: logs/m40/voxnet
+  max_epoch: 300
+  test_every_epoch: 5
+  log_per_iter: 50
+
+  # lr_type: step / cos
+  # lr_type: cos
+  lr_type: constant
+  # lr: 0.1
+  # lr_min: 0.0001
+  # gamma: 0.1
+  # lr_power: 0.9
+  weight_decay: 0.0005
+  milestones: (120,180,240) # 
+  ckpt_num: 20
+
+DATA:
+  train:
+    # octree building
+    depth: 5
+    full_depth: 2
+    # adaptive: False # Build the adaptive octree
+    # transformation
+    orient_normal: xyz
+
+    # data augmentations
+    distort: True
+    angle: (0, 0, 5)      # small rotation along z axis
+    interval: (1, 1, 1)
+    scale: 0.25
+    jitter: 0.125
+
+    # data loading
+    location: data/ModelNet40/ModelNet40.ply.normalize
+    filelist: data/ModelNet40/filelist/m40_train.txt
+    batch_size: 32
+    shuffle: True
+    # num_workers: 0
+
+  test:
+    # octree building
+    depth: 5
+    full_depth: 2
+    # adaptive: False # Build the adaptive octree
+    # transformation
+    orient_normal: xyz
+
+    # data augmentations
+    distort: False
+    angle: (0, 0, 5)      # small rotation along z axis
+    interval: (1, 1, 1)
+    scale: 0.25
+    jitter: 0.125
+
+    # data loading
+    location: data/ModelNet40/ModelNet40.ply.normalize
+    filelist: data/ModelNet40/filelist/m40_test.txt
+    batch_size: 32
+    shuffle: False
+    # num_workers: 0
+
+MODEL:
+  name: voxnet
+  feature: ND   # N -> Normal (3 channels);
+                # D -> Local displacement (1 channel)
+  nempty: False
+  stages: 3    # !!! `stages` should increase with `depth` accordingly
+  channel: 4
+  nout: 40
+
+LOSS:
+  num_class: 40

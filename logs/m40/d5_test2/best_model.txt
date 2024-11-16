@@ -1,0 +1,2 @@
+epoch: 1, test/accu: 0.342147
+epoch: 2, test/accu: 0.537660

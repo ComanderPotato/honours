@@ -1,0 +1,5 @@
+epoch: 5, test/accu: 0.791266
+epoch: 10, test/accu: 0.822115
+epoch: 15, test/accu: 0.845753
+epoch: 35, test/accu: 0.858574
+epoch: 45, test/accu: 0.870192

@@ -1,0 +1,120 @@
+=> Epoch: 5, test/loss: 0.634, test/accu: 0.806, time: 2024/11/16 13:09:00, dur
+   ation: 6.75s
+=> Epoch: 10, test/loss: 0.528, test/accu: 0.834, time: 2024/11/16 13:10:33, du
+   ration: 6.57s
+=> Epoch: 15, test/loss: 0.520, test/accu: 0.843, time: 2024/11/16 13:12:03, du
+   ration: 6.56s
+=> Epoch: 20, test/loss: 0.543, test/accu: 0.838, time: 2024/11/16 13:13:34, du
+   ration: 6.62s
+=> Epoch: 25, test/loss: 0.510, test/accu: 0.844, time: 2024/11/16 13:15:04, du
+   ration: 6.62s
+=> Epoch: 30, test/loss: 0.510, test/accu: 0.839, time: 2024/11/16 13:16:37, du
+   ration: 6.69s
+=> Epoch: 35, test/loss: 0.466, test/accu: 0.861, time: 2024/11/16 13:18:11, du
+   ration: 6.72s
+=> Epoch: 40, test/loss: 0.453, test/accu: 0.867, time: 2024/11/16 13:19:44, du
+   ration: 6.82s
+=> Epoch: 45, test/loss: 0.473, test/accu: 0.854, time: 2024/11/16 13:21:17, du
+   ration: 6.79s
+=> Epoch: 50, test/loss: 0.485, test/accu: 0.845, time: 2024/11/16 13:22:48, du
+   ration: 6.59s
+=> Epoch: 55, test/loss: 0.455, test/accu: 0.853, time: 2024/11/16 13:24:20, du
+   ration: 6.61s
+=> Epoch: 60, test/loss: 0.558, test/accu: 0.812, time: 2024/11/16 13:25:53, du
+   ration: 6.71s
+=> Epoch: 65, test/loss: 0.488, test/accu: 0.855, time: 2024/11/16 13:27:28, du
+   ration: 6.89s
+=> Epoch: 70, test/loss: 0.475, test/accu: 0.858, time: 2024/11/16 13:29:03, du
+   ration: 6.74s
+=> Epoch: 75, test/loss: 0.509, test/accu: 0.839, time: 2024/11/16 13:30:35, du
+   ration: 6.72s
+=> Epoch: 80, test/loss: 0.468, test/accu: 0.863, time: 2024/11/16 13:32:07, du
+   ration: 6.64s
+=> Epoch: 85, test/loss: 0.481, test/accu: 0.853, time: 2024/11/16 13:33:42, du
+   ration: 6.70s
+=> Epoch: 90, test/loss: 0.601, test/accu: 0.827, time: 2024/11/16 13:35:17, du
+   ration: 6.75s
+=> Epoch: 95, test/loss: 0.488, test/accu: 0.855, time: 2024/11/16 13:36:51, du
+   ration: 6.59s
+=> Epoch: 100, test/loss: 0.502, test/accu: 0.848, time: 2024/11/16 13:38:24, d
+   uration: 6.50s
+=> Epoch: 105, test/loss: 0.485, test/accu: 0.855, time: 2024/11/16 13:39:59, d
+   uration: 6.51s
+=> Epoch: 110, test/loss: 0.479, test/accu: 0.861, time: 2024/11/16 13:41:34, d
+   uration: 6.83s
+=> Epoch: 115, test/loss: 0.523, test/accu: 0.835, time: 2024/11/16 13:43:10, d
+   uration: 6.70s
+=> Epoch: 120, test/loss: 0.504, test/accu: 0.855, time: 2024/11/16 13:44:46, d
+   uration: 6.93s
+=> Epoch: 125, test/loss: 0.330, test/accu: 0.897, time: 2024/11/16 13:46:21, d
+   uration: 6.97s
+=> Epoch: 130, test/loss: 0.332, test/accu: 0.898, time: 2024/11/16 13:47:56, d
+   uration: 6.68s
+=> Epoch: 135, test/loss: 0.320, test/accu: 0.902, time: 2024/11/16 13:49:31, d
+   uration: 6.68s
+=> Epoch: 140, test/loss: 0.311, test/accu: 0.900, time: 2024/11/16 13:51:08, d
+   uration: 6.94s
+=> Epoch: 145, test/loss: 0.321, test/accu: 0.894, time: 2024/11/16 13:52:45, d
+   uration: 6.84s
+=> Epoch: 150, test/loss: 0.309, test/accu: 0.902, time: 2024/11/16 13:54:19, d
+   uration: 6.69s
+=> Epoch: 155, test/loss: 0.312, test/accu: 0.895, time: 2024/11/16 13:55:54, d
+   uration: 6.64s
+=> Epoch: 160, test/loss: 0.325, test/accu: 0.893, time: 2024/11/16 13:57:28, d
+   uration: 6.60s
+=> Epoch: 165, test/loss: 0.328, test/accu: 0.893, time: 2024/11/16 13:59:02, d
+   uration: 6.63s
+=> Epoch: 170, test/loss: 0.326, test/accu: 0.892, time: 2024/11/16 14:00:36, d
+   uration: 6.57s
+=> Epoch: 175, test/loss: 0.318, test/accu: 0.897, time: 2024/11/16 14:02:11, d
+   uration: 6.77s
+=> Epoch: 180, test/loss: 0.304, test/accu: 0.905, time: 2024/11/16 14:03:46, d
+   uration: 6.93s
+=> Epoch: 185, test/loss: 0.283, test/accu: 0.909, time: 2024/11/16 14:05:21, d
+   uration: 6.85s
+=> Epoch: 190, test/loss: 0.284, test/accu: 0.911, time: 2024/11/16 14:06:56, d
+   uration: 6.64s
+=> Epoch: 195, test/loss: 0.276, test/accu: 0.909, time: 2024/11/16 14:08:28, d
+   uration: 6.63s
+=> Epoch: 200, test/loss: 0.276, test/accu: 0.912, time: 2024/11/16 14:10:03, d
+   uration: 6.71s
+=> Epoch: 205, test/loss: 0.278, test/accu: 0.909, time: 2024/11/16 14:11:38, d
+   uration: 6.71s
+=> Epoch: 210, test/loss: 0.277, test/accu: 0.911, time: 2024/11/16 14:13:13, d
+   uration: 6.62s
+=> Epoch: 215, test/loss: 0.286, test/accu: 0.907, time: 2024/11/16 14:14:48, d
+   uration: 6.83s
+=> Epoch: 220, test/loss: 0.282, test/accu: 0.909, time: 2024/11/16 14:16:21, d
+   uration: 6.59s
+=> Epoch: 225, test/loss: 0.279, test/accu: 0.911, time: 2024/11/16 14:17:54, d
+   uration: 6.76s
+=> Epoch: 230, test/loss: 0.279, test/accu: 0.911, time: 2024/11/16 14:19:27, d
+   uration: 6.79s
+=> Epoch: 235, test/loss: 0.278, test/accu: 0.910, time: 2024/11/16 14:21:03, d
+   uration: 6.86s
+=> Epoch: 240, test/loss: 0.279, test/accu: 0.909, time: 2024/11/16 14:22:38, d
+   uration: 6.87s
+=> Epoch: 245, test/loss: 0.275, test/accu: 0.911, time: 2024/11/16 14:24:11, d
+   uration: 6.74s
+=> Epoch: 250, test/loss: 0.274, test/accu: 0.911, time: 2024/11/16 14:25:45, d
+   uration: 6.96s
+=> Epoch: 255, test/loss: 0.275, test/accu: 0.910, time: 2024/11/16 14:27:20, d
+   uration: 6.71s
+=> Epoch: 260, test/loss: 0.277, test/accu: 0.909, time: 2024/11/16 14:28:52, d
+   uration: 6.74s
+=> Epoch: 265, test/loss: 0.277, test/accu: 0.909, time: 2024/11/16 14:30:23, d
+   uration: 6.59s
+=> Epoch: 270, test/loss: 0.284, test/accu: 0.907, time: 2024/11/16 14:31:54, d
+   uration: 6.64s
+=> Epoch: 275, test/loss: 0.276, test/accu: 0.910, time: 2024/11/16 14:33:27, d
+   uration: 6.83s
+=> Epoch: 280, test/loss: 0.273, test/accu: 0.912, time: 2024/11/16 14:35:01, d
+   uration: 6.70s
+=> Epoch: 285, test/loss: 0.280, test/accu: 0.909, time: 2024/11/16 14:36:32, d
+   uration: 6.63s
+=> Epoch: 290, test/loss: 0.271, test/accu: 0.913, time: 2024/11/16 14:38:03, d
+   uration: 6.64s
+=> Epoch: 295, test/loss: 0.275, test/accu: 0.911, time: 2024/11/16 14:39:38, d
+   uration: 7.03s
+=> Epoch: 300, test/loss: 0.275, test/accu: 0.909, time: 2024/11/16 14:41:12, d
+   uration: 6.84s

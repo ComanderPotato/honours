@@ -1,0 +1,4 @@
+=> Epoch: 1, test/loss: 2.710, test/accu: 0.342, time: 2024/11/16 18:37:24, dur
+   ation: 9.00s
+=> Epoch: 2, test/loss: 1.705, test/accu: 0.538, time: 2024/11/16 18:37:49, dur
+   ation: 9.22s
